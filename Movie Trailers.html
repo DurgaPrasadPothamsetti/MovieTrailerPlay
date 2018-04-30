@@ -1,0 +1,223 @@
+<html>
+
+<head>
+    <title>Movie Trailers</title>
+</head>
+
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myVideo").on("hidden.bs.modal", function () {
+                $("#myframeY").attr("src", "#");
+            })
+        })
+
+        function changeVideo(vId) {
+            var iframe = document.getElementById("myframeY");
+            iframe.src = "https://www.youtube.com/embed/" + vId;
+
+            $("#myVideo").modal("show");
+        }
+    </script>
+    <style>
+        .container {
+            flex-wrap: wrap;
+            display: flex;
+            flex: 10%;
+            justify-content: center;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            color: white;
+            background-color: black;
+            height: 1.5cm;
+            margin: 0px, 0px, 0px, 0px;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Courgette', cursive;
+        }
+
+        img {
+            height: 400px;
+            width: 250px;
+
+
+
+        }
+
+        .mv:hover,
+        .mv1:hover,
+        .mv2:hover,
+        .mv3:hover,
+        .mv4:hover,
+        .mv5:hover,
+        .mv6:hover,
+        .mv7:hover {
+            background-color: forestgreen;
+            visibility: visible;
+            cursor: pointer;
+        }
+
+        .mv {
+
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv1 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+
+        }
+
+        .mv2 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv3 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv4 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv5 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv6 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv7 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+        .mv8 {
+            padding-top: 15px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 40px;
+            background-color: white;
+        }
+
+    </style>
+    <title>Movie Trailers</title>
+    <header><i class="fa fa-film"></i>  Movie Trailers  <i class="fa fa-film"></i></header>
+    <main>
+        <div class="container">
+            <div class="mv" onclick="changeVideo('97h9fBWltBM')">
+                <img src="https://www.25cineframes.com/images/gallery/2017/09/pawan-kalyan-trivikram-srinivas-pspk25-movie-first-look-all-ultra-hd-posters-wallpapers/54-Pawan-Kalyan-Agnathavasi-Movie-First-Look-ULTRA-HD-Posters-WallPapers.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>Agnyathavasi</b>
+                </figcaption>
+            </div>
+            <div class="mv1" onclick="changeVideo('ZnVIUr_BQSs')">
+                <img src="https://files.prokerala.com/movies/pics/728w/naa-peru-surya-poster-84822.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>Na Peru Surya Na Illu India</b>
+                </figcaption>
+            </div>
+            <div class="mv2" onclick="changeVideo('7A1Y1ExiQRw')">
+                <img src="https://files.prokerala.com/movies/pics/728w/ugadi-wishes-poster-85599.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <B>Krishnarjuna Yuddham</B>
+                </figcaption>
+            </div>
+            <div class="mv3" onclick="changeVideo('KMWS5y2gZ6E')">
+                <img src="https://files.prokerala.com/movies/pics/728w/bharath-ane-nenu-poster-83322.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <B>Bharath Ane Nenu</B>
+                </figcaption>
+            </div>
+            <div class="mv4" onclick="changeVideo('mhhb6JAJKbE')">
+                <img src="https://files.prokerala.com/movies/pics/728w/rangasthalam-new-posters-85600.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>Rangasthalam</b>
+                </figcaption>
+            </div>
+            <div class="mv5" onclick="changeVideo('s5kI0VWac2k')">
+                <img src="https://files.prokerala.com/movies/pics/728w/hero-nithin-25-th-film-first-look-release-poster-84169.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>Chal Mohan Ranga</b>
+                </figcaption>
+            </div>
+            <div class="mv6" onclick="changeVideo('8wOw-3QOvDw')">
+                <img src="https://files.prokerala.com/movies/pics/728w/nandamuri-kalyan-ram-kajal-aggarwal-s-movie-in-march-82680.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>M L A</b>
+                </figcaption>
+            </div>
+            <div class="mv7" onclick="changeVideo('SU1Sq3NdnTA')">
+                <img src="https://files.prokerala.com/movies/pics/728w/trailer-poster-83583.jpg">
+                <figcaption style="text-align: center; color: white;">
+                    <b>Kirraak Party</b>
+                </figcaption>
+            </div>
+        </div>
+       
+        <div class="modal fade" id="myVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        <iframe id="myframeY" width="550" height="350" src="" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
